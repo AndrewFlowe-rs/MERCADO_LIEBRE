@@ -1,0 +1,11 @@
+.footer-home {
+    margin-top: 15px;
+}
+.footer-home section article {
+    text-align: center;
+}
+.footer-home section article i {
+    height: 10px;
+    width: 10px;
+    color: var(--celeste);
+}

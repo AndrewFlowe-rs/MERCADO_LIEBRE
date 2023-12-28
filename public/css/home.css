@@ -1,3 +1,8 @@
-.footer-home {
-background-color: var();
-}
+.header-home {
+    background-color: var(--amarillo);
+    }
+
+.main-home ,.footer-home {
+    background-color: var(--Grisclaro);
+  
+  }

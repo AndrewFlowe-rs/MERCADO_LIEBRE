@@ -21,16 +21,10 @@
 
 }
 
-body {
-background-color: var(--amarillo);
-}
+
 
 
 *{
   margin: 0px;
   font-family: var(--roboto);
-}
-.main-home ,.footer-home {
-  background-color: var(--Grisoscuro);
-
 }
