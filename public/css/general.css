@@ -1,8 +1,36 @@
 :root {
   /*fuentes*/
-    --roboto : "roboto"  ;
+    --roboto : 'Roboto', sans-serif;
+    ;
 
     /* tamaño tipogragias*/
+    --cuerpo-de-t : 12px ; 
+    --titulares : 24px ;
+    --Precios: 18px ;
+    --Descuentos: 16px;
+    --Descripciones: 16px ;
 
     /*colores*/
+    --amarillo : #EAC926;
+    --Azul : #03264C;
+    --celeste :  #1259c3;
+     --Grisoscuro : #666;
+     --Grisclaro : #ebebeb;
+     --Verde : #39b54a;
+
+
+}
+
+body {
+background-color: var(--amarillo);
+}
+
+
+*{
+  margin: 0px;
+  font-family: var(--roboto);
+}
+.main-home ,.footer-home {
+  background-color: var(--Grisoscuro);
+
 }
