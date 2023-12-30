@@ -49,3 +49,24 @@
     color: var(--Grisclaro);
 }
 
+
+/*main*/
+
+.main-home section h4 {
+    font-size: var(--titulares);
+
+}
+.main-home section article  .precios-home {
+ font-size: var(--precios);
+
+}
+.main-home section article .descuentos-home {
+    font-size: var(--descuentos);
+ 
+}
+.main-home section article .descripcion-home {
+    font-size: var(--descripciones);
+}
+.main-home {
+    text-align: center;
+}
