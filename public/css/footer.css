@@ -1,20 +1,40 @@
 .footer-home {
     margin-top: 15px;
     text-align: center;
+    background-color: var(--Grisclaro);
+   
+    padding: 22px;
+}
+.footer-home section {
+    padding-top: 84px;
+   background-color: var(--fondo) ;
 }
 .footer-home section article {
     text-align: center;
+    
+    margin-bottom: 120px;
+   
+}
+.footer-home section h4 {
+   
+    font-size: var(--descripciones);
+    color: var(--Grisoscuro);
+}
+.footer-home section article h5 {
     font-size: var(--cuerpo-de-t);
-    font-weight: lighter;
+    font-weight: normal;
+    color: var(--Grisoscuro);
+    padding: 0px 74px;
 }
 .footer-home section i {
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 2em;
-    width: 2em;
+    font-size: 2em;
     color: var(--celeste);
 }
 .footer-home section p {
     margin-top: 20px;
     font-size: var(--cuerpo-de-t);
+    color: var(--Grisoscuro);
+    font-weight: lighter;
 }

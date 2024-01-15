@@ -17,7 +17,7 @@
      --Grisoscuro : #666;
      --Grisclaro : #ebebeb;
      --Verde : #39b54a;
-
+     --fondo: #ffffff ;
 
 }
 
@@ -27,4 +27,6 @@
 *{
   margin: 0px;
   font-family: var(--roboto);
+  width: 100%;
+  box-sizing: border-box;
 }
