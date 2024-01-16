@@ -38,3 +38,32 @@
     color: var(--Grisoscuro);
     font-weight: lighter;
 }
+
+/*Tablet*/
+
+@media  (min-width: 767px) and (max-width : 1440px) {
+
+    .footer-home{}
+    .footer-home section{}
+    .footer-home section i{}
+    .footer-home section h4{}
+    .footer-home section article{}
+    .footer-home section article h5{}
+    .footer-home p {}
+
+}
+
+
+
+
+
+
+
+/*Deskopt*/
+
+@media  (min-width:1025px ) {
+
+}
+    
+
+

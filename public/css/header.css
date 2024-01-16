@@ -78,6 +78,7 @@
 }
 
 
+
 /*main*/
 .main-home {
    padding:  25px 44px;
@@ -109,4 +110,73 @@
 }
 .main-home section  .descripcion-home {
     font-size: var(--descripciones);
+}
+
+
+/*Tablets*/
+
+@media  (min-width: 768px) and (max-width : 1024px) {
+    .header-home {
+    }
+    .header-home img {}
+    .header-home form {}
+    .header-home form input {}
+    .header-home form .burger-menu{}
+    .header-home form .burger-menu i {}
+    .header-home h4 {}
+    .header-home h4 i {}
+
+
+
+    .header-home nav {}
+    .header-home nav ul {}
+    .header-home nav ul li{}
+    .header-home nav ul li a{}
+    .header-home nav .segunda-lista {}
+    .header-home nav .segunda-lista li {}
+    .header-home nav .segunda-lista li a {}
+
+
+
+    .header-home .burger-menu {}
+    .header-home .burger-menu i{}
+    .header-home figure {}
+    .header-home figure img {}
+
+
+ 
+ 
+ 
+ 
+    /*MAIN*/
+
+    .main-home{
+        background-color: red;
+    }
+    .main-home section {}
+    .main-home section h4{}
+    .main-home section article{}
+    .main-home section article img{}
+    .main-home section article h5{}
+    .main-home section article .precios-home{}
+    .main-home section article .descuentos-home{}
+    .main-home section article .descripcion-home{}
+    .main-home p {}
+}
+
+
+
+
+
+
+
+
+
+
+/*Deskopt*/
+
+@media  (min-width:1025px ) {
+    .main-home {
+        background-color: black;
+    }
 }
