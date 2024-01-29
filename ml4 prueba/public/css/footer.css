@@ -1,0 +1,33 @@
+.footer i{
+    font-size: var(--iconos);
+    color: var(--celeste);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer h4{
+    font-size: var(--descripciones);
+    color: var(--grisOscuro);
+    text-align: center;
+    margin: 10px 0px -12px 0px;
+}
+
+.footer .parrafo{
+    font-size: var(--cuerpoDeTexto);
+    color: var(--grisOscuro);
+    font-weight: normal;
+    text-align: center;
+    line-height: 15px;
+    padding: 0px 24px 0px 24px;
+}
+.footer .p{
+    margin-top: 20px;
+}
+
+.footer .copy{
+    font-size: var(--cuerpoDeTexto);
+    color: var(--grisOscuro);
+    font-weight: normal;
+    line-height: 15px;
+    padding: 20px 0px 15px 15px;
+}
