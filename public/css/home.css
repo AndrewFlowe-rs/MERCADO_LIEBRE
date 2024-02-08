@@ -18,7 +18,7 @@
  }
  .main-home section h4 {
      font-size: var(--titulares);
- 
+     background-color: var(--Grisclaro);
  }
  .main-home article {
      width: 100%;
