@@ -1,6 +1,8 @@
 .header-home {
+    background-color: var(--amarillo);
     padding-bottom: 35px;
-}
+    }
+
 .header-home img {
 
     width: 400px;
@@ -77,36 +79,3 @@
     font-size:49px ;
 }
 
-
-/*main*/
-.main-home {
-   padding:  25px 44px;
-   text-align: center;
-   
-}
-.main-home section {
-   margin: 5px 0px 5px 0px;
-   background-color:  var(--fondo);
-}
-.main-home section h4 {
-    font-size: var(--titulares);
-
-}
-.main-home article {
-    width: 100%;
-    padding-bottom: 52px;
-}
-.main-home section img {
-   
-}
-.main-home section  .precios-home {
- font-size: var(--precios);
-
-}
-.main-home section  .descuentos-home {
-    font-size: var(--descuentos);
- 
-}
-.main-home section  .descripcion-home {
-    font-size: var(--descripciones);
-}
