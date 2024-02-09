@@ -1,3 +1,4 @@
+@media screen and (max-width: 368px) {
 .footer-home {
     margin-top: 6px;
     text-align: center;
@@ -37,7 +38,7 @@
     color: var(--Grisoscuro);
     font-weight: lighter;
 }
-
+}
 /*Tablet*/
 
 @media  (min-width: 767px) and (max-width : 1440px) {
