@@ -1,105 +1,103 @@
-body {
-    background-color: var(--Grisclaro);
-}
+@media (max-width: 360px) {
+    .header-home {}
 
-.header-home {}
+    .header-home img {
 
-.header-home img {
+        width: 42%;
 
-width: 42%;
+        margin: 20px 0 -1px 10px;
+    }
 
-margin: 20px 0 -1px 10px;
-}
-.header-home form {
-    display: flex;
-    justify-content: end;
-    /* align-items: start; */
-    width: 46%;
-    margin-left: 49%;
-    position: relative;
-    top: -44px;
-}
+    .header-home form {
+        display: flex;
+        justify-content: end;
+        /* align-items: start; */
+        width: 46%;
+        margin-left: 49%;
+        position: relative;
+        top: -44px;
+    }
 
-.header-home form input {
-    
-padding: 5px;
-    
-width: 356%;
-    
-border-radius: 5px;
-    
-border: none;
-    
-/* display: inline; */
-}
+    .header-home form input {
+
+        padding: 5px;
+
+        width: 356%;
+
+        border-radius: 5px;
+
+        border: none;
+
+        /* display: inline; */
+    }
 
 
-.header-home .logo-busqueda {
-    position: relative;
-     left: -19px;
-    background-color: white;
-}
+    .header-home .logo-busqueda {
+        position: relative;
+        left: -19px;
+        background-color: white;
+    }
 
 
-.header-home .logo-busqueda i {
-    font-size: 16px;
-    color: var(--Grisoscuro);
-    margin-top: 4px;
-    /* margin-left: 10px; */
-}
+    .header-home .logo-busqueda i {
+        font-size: 16px;
+        color: var(--Grisoscuro);
+        margin-top: 4px;
+        /* margin-left: 10px; */
+    }
 
-.header-home h4 {
-    padding-left: 64px;
-    display: inline-block;
-    font-size: var(--cuerpo-de-t);
-    font-weight: normal;
-}
+    .header-home h4 {
+        padding-left: 64px;
+        display: inline-block;
+        font-size: var(--cuerpo-de-t);
+        font-weight: normal;
+    }
 
-.header-home h4 i {
-    display: inline;
-}
+    .header-home h4 i {
+        display: inline;
+    }
 
-.header-home nav ul {
-    list-style: none;
-    padding: 26px 0 0 0;
-    padding-bottom: 16px;
-    display: none;
-}
+    .header-home nav ul {
+        list-style: none;
+        padding: 26px 0 0 0;
+        padding-bottom: 16px;
+        display: none;
+    }
 
 
-.header-home nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-size: var(--cuerpo-de-t);
+    .header-home nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: var(--cuerpo-de-t);
 
-}
+    }
 
-.header-home nav .segunda-lista i {
-    display: inline;
-}
+    .header-home nav .segunda-lista i {
+        display: inline;
+    }
 
-.burger-menu {
-    background-color: var(--celeste);
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    margin-left: 41%;
-    margin-top: 10px;
-    border-radius: 12px;
-}
+    .burger-menu {
+        background-color: var(--celeste);
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        margin-left: 41%;
+        margin-top: 10px;
+        border-radius: 12px;
+    }
 
-.burger-menu i {
-    padding-top: 11px;
-    color: var(--Grisclaro);
-    font-size: 30px;
-}
+    .burger-menu i {
+        padding-top: 11px;
+        color: var(--Grisclaro);
+        font-size: 30px;
+    }
 
-.header-home figure img {
-    display: block;
-    width: 100%;
-    margin: 0px;
-    padding-top: 10px;
-}
+    .header-home figure img {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding-top: 10px;
+    }
 
 
 
@@ -108,106 +106,128 @@ border: none;
 
 
 
-/*main*/
-.main-home {
+    /*main*/
+    .main-home {
 
-width: 90%;
+        width: 90%;
 
-margin: 0 auto;
-}
+        margin: 0 auto;
+    }
 
-.main-home section {
-    margin: 5px 0px 5px 0px;
-    background-color: var(--fondo);
-    display: flex;
-    flex-wrap: wrap;
-}
+    .main-home section {
+        margin: 5px 0px 5px 0px;
+        background-color: var(--fondo);
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-.main-home section h4 {
-    font-size: var(--titulares);
+    .main-home section h4 {
+        font-size: var(--titulares);
 
-}
+    }
 
-.main-home article {
-border-top: 1px solid #ebebeb;
-padding: 38px;
-/* margin-left: 87px; */
-/* display: flex; */
-/* justify-content: center; */
-margin-bottom: 10px;
-/* flex: 1; */
-}
+    .main-home article {
 
-.main-home section img {
-    max-width: 100%;
-    height: auto;
+        border-top: 1px solid #ebebeb;
 
-}
+        padding: 38px;
 
-.main-home section article {
-}
+        /* margin-left: 87px; */
 
-.main-home section article div {
-    width: 33px;
-    height: 33px;
-    border: 1px solid var(--Verde);
-    border-radius: 50%;
-    margin-left: 88%;
-    text-align: center;
-}
+        /* display: flex; */
 
-.main-home section article div i {
-    display: block;
-    font-size: 16px;
-    padding: 5px;
+        /* justify-content: center; */
 
-    background-color: #FFF;
-    color: var(--Verde);
-    margin: 3px;
-}
+        margin-bottom: 10px;
 
-.main-home section .precios-home {
-    font-size: var(--precios);
-    display: inline-block;
-}
+        /* flex: 1; */
+    }
 
-.main-home section .descuentos-home {
-    font-size: var(--descuentos);
-    color: var(--Verde);
-    font-weight: lighter;
-    display: inline-block;
-}
+    .main-home section img {
+        max-width: 100%;
+        height: auto;
 
-.main-home section .descripcion-home {
-    font-size: var(--descripciones);
-    margin-top: 10px;
-    display: none;
+    }
+
+    .main-home section article {}
+
+    .main-home section article div {
+        width: 33px;
+        height: 33px;
+        border: 1px solid var(--Verde);
+        border-radius: 50%;
+        margin-left: 88%;
+        text-align: center;
+    }
+
+    .main-home section article div i {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+
+        background-color: #FFF;
+        color: var(--Verde);
+        margin: 3px;
+    }
+
+    .main-home section .precios-home {
+        font-size: var(--precios);
+        display: inline-block;
+    }
+
+    .main-home section .descuentos-home {
+        font-size: var(--descuentos);
+        color: var(--Verde);
+        font-weight: lighter;
+        display: inline-block;
+    }
+
+    .main-home section .descripcion-home {
+        font-size: var(--descripciones);
+        margin-top: 10px;
+        display: none;
+    }
 }
 
 
 /*Tablets*/
 
-@media (min-width: 361px) {
-    .header-home {}
+@media (min-width: 360px) and (max-width:769px){
+    .header-home {
+        /* width: 100%; */
+    }
 
     .header-home img {
-    width: 26.43%;
-}
+        margin: 27px 2px;
+        margin-right: 0px;
+        width: 29.43%;
+    }
 
     .header-home form {
-    width: 34.33%;
-    display: inline-flex;
-    margin-left: 1%;
-    top: -16px;
-}
+        width: 34.33%;
+        position: absolute;
+        display: inline-flex;
+        /* margin-left: 1%; */
+        top: 58px;
+    }
 
     .header-home form input {
-    border-radius: 0px;
-}
-.header-home form input div{}
-.header-home form input div i{
+        padding: 2px;
+        /* border-radius: 0px; */
+        border: none;
+    }
 
-}
+    .header-home .logo-busqueda {
+        border: solid 0.2px;
+        background-color: var(--Grisclaro);
+        margin-left: 2%;
+        width: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-home .logo-busqueda i {}
 
 
     .header-home form .burger-menu {}
@@ -215,32 +235,44 @@ margin: 0 auto;
     .header-home form .burger-menu i {}
 
     .header-home h4 {
-    position: absolute;
-    top: 8%;
-    padding: 0px;
-    margin-top: -16px;
-}
+        position: absolute;
+        width: 42%;
+        font-size: small;
+        top: 11%;
+        right: 0px;
+        /* padding: 0px; */
+        /* margin-top: -16px; */
+    }
 
     .header-home h4 i {}
 
 
 
-    .header-home nav {height: 3;}
+    .header-home nav {
+        display: flex;
+        width: 117%;
+    }
 
     .header-home nav ul {
         display: inline-flex;
+        width: 48%;
+        list-style: none;
+        font-size: small;
     }
 
     .header-home nav ul li {
-    margin-left: 22px;
-}
+        margin-left: 22px;
+    }
 
-    .header-home nav ul li a {}
+    .header-home nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
 
     .header-home nav .segunda-lista {
-    margin-left: 18%;
-    /* position: absolute; */
-}
+        /* margin-left: 18%; */
+        /* position: absolute; */
+    }
 
     .header-home nav .segunda-lista li {}
 
@@ -249,14 +281,18 @@ margin: 0 auto;
 
 
     .header-home .burger-menu {
-    display: none;
-}
+        display: none;
+    }
 
     .header-home .burger-menu i {}
 
     .header-home figure {}
 
-    .header-home figure img {}
+    .header-home figure img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+    }
 
 
 
@@ -267,16 +303,18 @@ margin: 0 auto;
 
     .main-home {
 
-/* justify-content: center; */
+        justify-content: center;
 
-/* display: flex; */
+        /* display: flex; */
 
-/* flex-wrap: wrap; */
+        /* flex-wrap: wrap; */
 
-/* align-content: center; */
+        /* align-content: center; */
 
-/* flex-grow: 1; */
-}
+        /* flex-grow: 1; */
+
+        /* width: 100%; */
+    }
 
     .main-home section {
         background-color: var(--Grisclaro);
@@ -288,20 +326,428 @@ margin: 0 auto;
 
     .main-home section h4 {
         /* height: 0px; */
-        margin-bottom: 2px;
-        display: inline-block;
+        /* margin-bottom: 2px; */
+        display: flex;
+        flex-wrap: wrap;
         flex: 0 0 100%;
+        font-size: var(--titulares);
     }
 
     .main-home section article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        /* width: 121px; */
+        width: 45%;
         padding: 20px;
         margin: 19px 16px;
         background-color: white;
     }
 
-    .main-home section article img {}
+    .main-home section article img {
+        width: 100%;
+    }
+
+
+    .main-home section article div {
+        width: 33px;
+        height: 33px;
+        border: 1px solid var(--Verde);
+        border-radius: 50%;
+        margin-left: 88%;
+        text-align: center;
+    }
+
+    .main-home section article div i {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+
+        background-color: #FFF;
+        color: var(--Verde);
+        margin: 3px;
+    }
+
+    .precios-home {
+        font-size: var(--precios);
+        display: inline-block;
+    }
+
+    .main-home section .descuentos-home {
+        font-size: var(--descuentos);
+        color: var(--Verde);
+        font-weight: lighter;
+        display: inline-block;
+        margin-left: 40%;
+    }
+
+    .main-home section .descripcion-home {
+        font-size: var(--descripciones);
+        margin-top: 10px;
+        display: none;
+    }
+
+
+
+
+
+
+    .main-home section .ofertas {
+        width: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+/*Deskopt*/
+
+@media (min-width:770px) {
+    .header-home {}
+
+    .header-home img {
+
+        width: 42%;
+
+        margin: 20px 0 -1px 10px;
+    }
+
+    .header-home form {
+        display: flex;
+        justify-content: end;
+        /* align-items: start; */
+        width: 46%;
+        margin-left: 49%;
+        position: relative;
+        top: -44px;
+    }
+
+    .header-home form input {
+
+        padding: 5px;
+
+        width: 356%;
+
+        border-radius: 5px;
+
+        border: none;
+
+        /* display: inline; */
+    }
+
+
+    .header-home .logo-busqueda {
+        position: relative;
+        left: -19px;
+        background-color: white;
+    }
+
+
+    .header-home .logo-busqueda i {
+        font-size: 16px;
+        color: var(--Grisoscuro);
+        margin-top: 4px;
+        /* margin-left: 10px; */
+    }
+
+    .header-home h4 {
+        /* padding-left: 64px; */
+        position: absolute;
+        display: inline-block;
+        font-size: var(--cuerpo-de-t);
+        font-weight: normal;
+    }
+
+    .header-home h4 i {
+        display: inline;
+    }
+
+    .header-home nav ul {
+        list-style: none;
+        padding: 26px 0 0 0;
+        padding-bottom: 16px;
+        display: none;
+    }
+
+
+    .header-home nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: var(--cuerpo-de-t);
+
+    }
+
+    .header-home nav .segunda-lista i {
+        display: inline;
+    }
+
+    .burger-menu {
+        background-color: var(--celeste);
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        margin-left: 41%;
+        margin-top: 10px;
+        border-radius: 12px;
+    }
+
+    .burger-menu i {
+        padding-top: 11px;
+        color: var(--Grisclaro);
+        font-size: 30px;
+    }
+
+    .header-home figure img {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding-top: 10px;
+    }
+
+
+
+
+
+
+
+
+    /*main*/
+    .main-home {
+
+        width: 90%;
+
+        margin: 0 auto;
+    }
+
+    .main-home section {
+        margin: 5px 0px 5px 0px;
+        background-color: var(--fondo);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-home section h4 {
+        font-size: var(--titulares);
+
+    }
+
+    .main-home article {
+/* border-top: 1px solid #ebebeb; */
+/* padding: 38px; */
+/* margin-left: 87px; */
+display: flex;
+/* justify-content: center; */
+/* margin-bottom: 10px; */
+flex-wrap: wrap;
+/* width: 30%; */
+/* flex: 1; */
+}
+
+    .main-home section img {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    .main-home section article {
+    /* width: 30%; */
+}
+
+    .main-home section article div {
+        width: 33px;
+        height: 33px;
+        border: 1px solid var(--Verde);
+        border-radius: 50%;
+        margin-left: 88%;
+        text-align: center;
+    }
+
+    .main-home section article div i {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+
+        background-color: #FFF;
+        color: var(--Verde);
+        margin: 3px;
+    }
+
+    .main-home section .precios-home {
+        font-size: var(--precios);
+        display: inline-block;
+    }
+
+    .main-home section .descuentos-home {
+        font-size: var(--descuentos);
+        color: var(--Verde);
+        font-weight: lighter;
+        display: inline-block;
+    }
+
+    .main-home section .descripcion-home {
+        font-size: var(--descripciones);
+        margin-top: 10px;
+        display: none;
+    }
+}
+
+
+/*Tablets*/
+
+@media (min-width: 360px) {
+    .header-home {
+        /* width: 100%; */
+    }
+
+    .header-home img {
+        margin: 27px 2px;
+        margin-right: 0px;
+        width: 29.43%;
+    }
+
+    .header-home form {
+        width: 34.33%;
+        position: absolute;
+        display: inline-flex;
+        margin-left: 1%;
+        top: 58px;
+    }
+
+    .header-home form input {
+        padding: 2px;
+        /* border-radius: 0px; */
+        border: none;
+    }
+
+    .header-home .logo-busqueda {
+        border: solid 0.2px;
+        background-color: var(--Grisclaro);
+        margin-left: 2%;
+        width: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-home .logo-busqueda i {}
+
+
+    .header-home form .burger-menu {}
+
+    .header-home form .burger-menu i {}
+
+    .header-home h4 {
+        position: absolute;
+        width: 42%;
+        right: 0px;
+        font-size: small;
+        top: 9%;
+        right: 0px;
+        /* padding: 0px; */
+        /* margin-top: -16px; */
+    }
+
+    .header-home h4 i {}
+
+
+
+    .header-home nav {
+        display: flex;
+        width: 117%;
+    }
+
+    .header-home nav ul {
+        display: inline-flex;
+        width: 48%;
+        list-style: none;
+        font-size: small;
+    }
+
+    .header-home nav ul li {
+        margin-left: 22px;
+    }
+
+    .header-home nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header-home nav .segunda-lista {
+        /* margin-left: 18%; */
+        /* position: absolute; */
+    }
+
+    .header-home nav .segunda-lista li {}
+
+    .header-home nav .segunda-lista li a {}
+
+
+
+    .header-home .burger-menu {
+        display: none;
+    }
+
+    .header-home .burger-menu i {}
+
+    .header-home figure {}
+
+    .header-home figure img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+
+    /*MAIN*/
+
+    .main-home {
+
+        justify-content: center;
+
+        /* display: flex; */
+
+        /* flex-wrap: wrap; */
+
+        /* align-content: center; */
+
+        /* flex-grow: 1; */
+
+        /* width: 100%; */
+    }
+
+    .main-home section {
+        background-color: var(--Grisclaro);
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .main-home section h4 {
+        /* height: 0px; */
+        /* margin-bottom: 2px; */
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        font-size: var(--titulares);
+    }
+
+    .main-home section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 45%;
+        padding: 20px;
+        margin: 19px 16px;
+        background-color: white;
+    }
+
+    .main-home section article img {
+        width: 100%;
+    }
 
 
     .main-home section article div {
@@ -340,96 +786,5 @@ margin: 0 auto;
 
     .main-home section .ofertas {
         width: 0px;
-    }
-
-
-
-
-
-
-
-
-
-
-    /*Deskopt*/
-
-    @media (min-width:769px){
-        .header-home {
-            /* background-color: aqua; */
-        }
-
-        .header-home img {}
-
-        .header-home form {}
-
-        .header-home form input {}
-
-        .header-home form input div {}
-
-        .header-home form input div i {}
-
-        .header-home h4 {}
-
-        .header-home h4 i {}
-
-        .header-home nav {}
-
-        .header-home nav ul {
-        }
-
-        .header-home nav ul li {
-    /* margin-left: 50px; */
-}
-
-        .header-home nav ul li a {}
-
-
-
-        .header-home nav .segunda-lista {}
-
-        .header-home nav .segunda-lista li {}
-
-        .header-home nav .segunda-lista li a {}
-
-
-        .header-home .burger-menu {
-            display: none;
-        }
-
-        .header-home .burger-menu i {}
-
-        .header-home figure {}
-
-        .header-home figure img {}
-
-
-        .main-home {}
-
-        .main-home section h4 {}
-    }
-
-    .main-home section article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        flex: 1;
-    }
-
-    .main-home section article img {}
-
-    .main-home section article div {
-
-
-}
-
-    .main-home section article div i {
-      
-
-    }
-
-    .main-home section article .precios-home {}
-
-    .main-home section article .descuentos-home {}
-
-    .main-home section article .descripcion-home {
-        
     }
 }

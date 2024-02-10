@@ -1,54 +1,101 @@
-.footer-home {
-    margin-top: 6px;
-    text-align: center;
-    background-color: var(--Grisclaro);
-    padding: 22px;
-}
-.footer-home section {
-    padding-top: 84px;
-   background-color: var(--fondo) ;
-}
-.footer-home section article {
-    text-align: center;
-    
-    margin-bottom: 120px;
-   
-}
-.footer-home section h4 {
-   
-    font-size: var(--descripciones);
-    color: var(--Grisoscuro);
-}
-.footer-home section article h5 {
-    font-size: var(--cuerpo-de-t);
-    font-weight: normal;
-    color: var(--Grisoscuro);
-    padding: 0px 74px;
-}
-.footer-home section i {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 2em;
-    color: var(--celeste);
-}
-.footer-home section p {
-    margin-top: 20px;
-    font-size: var(--cuerpo-de-t);
-    color: var(--Grisoscuro);
-    font-weight: lighter;
+@media (max-width: 360px) {
+
+    .footer-home {
+        margin-top: 6px;
+        text-align: center;
+        background-color: var(--Grisclaro);
+        padding: 22px;
+    }
+
+    .footer-home section {
+        padding-top: 84px;
+        background-color: var(--fondo);
+    }
+
+    .footer-home section article {
+        text-align: center;
+
+        margin-bottom: 120px;
+
+    }
+
+    .footer-home section h4 {
+
+        font-size: var(--descripciones);
+        color: var(--Grisoscuro);
+    }
+
+    .footer-home section article h5 {
+        font-size: var(--cuerpo-de-t);
+        font-weight: normal;
+        color: var(--Grisoscuro);
+        padding: 0px 74px;
+    }
+
+    .footer-home section i {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 2em;
+        color: var(--celeste);
+    }
+
+    .footer-home section p {
+        margin-top: 20px;
+        font-size: var(--cuerpo-de-t);
+        color: var(--Grisoscuro);
+        font-weight: lighter;
+    }
 }
 
 /*Tablet*/
 
-@media  (min-width: 767px) and (max-width : 1440px) {
+@media (min-width: 360px){
 
-    .footer-home{}
-    .footer-home section{}
-    .footer-home section i{}
-    .footer-home section h4{}
-    .footer-home section article{}
-    .footer-home section article h5{}
-    .footer-home p {}
+    .footer-home {
+        margin-top: 6px;
+        text-align: center;
+        background-color: var(--Grisclaro);
+        padding: 22px;
+    }
+
+    .footer-home section {
+        padding-top: 84px;
+        background-color: var(--fondo);
+    }
+
+    .footer-home section article {
+        text-align: center;
+
+        margin-bottom: 120px;
+
+    }
+
+    .footer-home section h4 {
+
+        font-size: var(--descripciones);
+        color: var(--Grisoscuro);
+    }
+
+    .footer-home section article h5 {
+        font-size: var(--cuerpo-de-t);
+        font-weight: normal;
+        color: var(--Grisoscuro);
+        padding: 0px 74px;
+    }
+
+    .footer-home section i {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 2em;
+        color: var(--celeste);
+    }
+
+    .footer-home section p {
+        margin-top: 20px;
+        font-size: var(--cuerpo-de-t);
+        color: var(--Grisoscuro);
+        font-weight: lighter;
+    }
 
 }
 
@@ -59,10 +106,50 @@
 
 
 /*Deskopt*/
+@media (min-width:769x){
+    .footer-home {
+        margin-top: 6px;
+        text-align: center;
+        background-color: var(--Grisclaro);
+        padding: 22px;
+    }
 
-@media  (min-width:1025px ) {
+    .footer-home section {
+        padding-top: 84px;
+        background-color: var(--fondo);
+    }
 
+    .footer-home section article {
+        text-align: center;
+
+        margin-bottom: 120px;
+
+    }
+
+    .footer-home section h4 {
+
+        font-size: var(--descripciones);
+        color: var(--Grisoscuro);
+    }
+
+    .footer-home section article h5 {
+        font-size: var(--cuerpo-de-t);
+        font-weight: normal;
+        color: var(--Grisoscuro);
+        padding: 0px 74px;
+    }
+
+    .footer-home section i {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 2em;
+        color: var(--celeste);
+    }
+
+    .footer-home section p {
+        margin-top: 20px;
+        font-size: var(--cuerpo-de-t);
+        color: var(--Grisoscuro);
+        font-weight: lighter;
+    }
 }
-    
-
-
