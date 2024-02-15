@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+
 
     .footer-home {
         margin-top: 6px;
@@ -45,29 +45,30 @@
         color: var(--Grisoscuro);
         font-weight: lighter;
     }
-}
+
 
 /*Tablet*/
 
-@media (min-width: 360px){
+@media (min-width: 360px) and (max-width:768px) {
+
 
     .footer-home {
         margin-top: 6px;
-        text-align: center;
         background-color: var(--Grisclaro);
         padding: 22px;
     }
 
     .footer-home section {
         padding-top: 84px;
+        display: inline-flex;
+        /* display: flex; */
+        flex-direction: row;
         background-color: var(--fondo);
     }
 
     .footer-home section article {
         text-align: center;
-
         margin-bottom: 120px;
-
     }
 
     .footer-home section h4 {
@@ -85,6 +86,7 @@
 
     .footer-home section i {
         margin-top: 10px;
+        /* height: 0px; */
         margin-bottom: 10px;
         font-size: 2em;
         color: var(--celeste);
@@ -106,7 +108,7 @@
 
 
 /*Deskopt*/
-@media (min-width:769x){
+@media (min-width:770px) {
     .footer-home {
         margin-top: 6px;
         text-align: center;

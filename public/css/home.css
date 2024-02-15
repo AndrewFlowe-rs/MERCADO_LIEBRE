@@ -166,7 +166,7 @@
     .main-home section .descripcion-home {
         font-size: var(--descripciones);
         margin-top: 10px;
-        /* display: none; */
+        display: none;
     }
 
 
