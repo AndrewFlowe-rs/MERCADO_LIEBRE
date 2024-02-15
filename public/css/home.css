@@ -77,7 +77,9 @@
 .main-home section .descripcion-home {
     font-size: var(--descripciones);
     margin-top: 10px;
-    display: none;
+    /* display: none; */
+    font-weight: lighter;
+    color: var(--Grisoscuro);
 }
 
 @media (min-width: 360px) and (max-width:768px) {
@@ -164,7 +166,7 @@
     .main-home section .descripcion-home {
         font-size: var(--descripciones);
         margin-top: 10px;
-        display: none;
+        /* display: none; */
     }
 
 
@@ -216,7 +218,7 @@
         position: relative;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 22%;
-        padding: 20px;
+        padding: 15px;
         margin: 19px 10px;
         background-color: white;
     }
@@ -247,7 +249,7 @@
 
     .precios-home {
         font-size: var(--precios);
-        display: inline-block;
+        /* display: inline-block; */
     }
 
     .main-home section .descuentos-home {
@@ -263,7 +265,7 @@
     .main-home section .descripcion-home {
         font-size: var(--descripciones);
         margin-top: 10px;
-        display: none;
+        /* display: none; */
     }
 
 

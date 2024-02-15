@@ -46,7 +46,7 @@
 }
 
 .header-home h4 {
-    padding-left: 64px;
+    padding-left: 21px;
     display: inline-block;
     font-size: var(--cuerpo-de-t);
     font-weight: normal;
@@ -155,7 +155,7 @@
         position: absolute;
         width: 42%;
         font-size: small;
-        top: 11%;
+        top: 8%;
         right: 0%;
         padding: 0px;
         /* margin-top: -16px; */
@@ -222,7 +222,7 @@
     }
 
     .header-home img {
-        margin: 27px 2px;
+        margin: 27px 14px;
         margin-right: 0px;
         width: 29.43%;
     }
@@ -263,7 +263,7 @@
         width: 42%;
         font-size: small;
         top: 8%;
-        left: 68%;
+        left: 70%;
         padding: 0px;
         /* margin-top: -16px; */
     }
@@ -294,7 +294,7 @@
     }
 
     .header-home nav .segunda-lista {
-        margin-left: 18%;
+        margin-left: 68%;
         position: absolute;
     }
 
