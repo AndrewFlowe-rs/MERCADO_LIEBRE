@@ -124,7 +124,7 @@
         width: 28%;
         position: absolute;
         display: inline-flex;
-        margin-left: 0%;
+        margin-left: 4%;
         top: 58px;
     }
 
@@ -155,8 +155,8 @@
         position: absolute;
         width: 42%;
         font-size: small;
-        top: 8%;
-        right: 0%;
+        top: 13%;
+        right: -5%;
         padding: 0px;
         /* margin-top: -16px; */
     }
