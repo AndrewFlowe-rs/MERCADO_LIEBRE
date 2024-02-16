@@ -62,6 +62,7 @@
     margin: 3px;
 }
 
+
 .main-home section .precios-home {
     font-size: var(--precios);
     display: inline-block;
@@ -149,6 +150,7 @@
         color: var(--Verde);
         margin: 3px;
     }
+  
 
     .precios-home {
         font-size: var(--precios);
@@ -166,8 +168,12 @@
     .main-home section .descripcion-home {
         font-size: var(--descripciones);
         margin-top: 10px;
-        display: none;
+        /* display: none; */
     }
+    .main-home section article:hover .descripcion-home{
+        display: block;
+    } 
+
 
 
 
@@ -246,6 +252,11 @@
         color: var(--Verde);
         margin: 3px;
     }
+    .main-home section article div i:hover{
+        transition: 1s;
+        transform: rotate(-90deg);
+         
+    }
 
     .precios-home {
         font-size: var(--precios);
@@ -265,10 +276,12 @@
     .main-home section .descripcion-home {
         font-size: var(--descripciones);
         margin-top: 10px;
-        /* display: none; */
+        display: none;
     }
 
-
+    .main-home section article:hover .descripcion-home{
+        display: block;
+    } 
 
 
 

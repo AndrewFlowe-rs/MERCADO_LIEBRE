@@ -1,157 +1,62 @@
+.footer i{
+    font-size: var(--iconos);
+    color: var(--celeste);
+    text-align: center;
+    margin-top: 60px;
+}
 
+.footer h4{
+    font-size: var(--descripciones);
+    color: var(--grisOscuro);
+    text-align: center;
+    margin: 10px 0px -12px 0px;
+    font-weight: bold;
+}
 
-    .footer-home {
-        margin-top: 6px;
-        text-align: center;
-        background-color: var(--Grisclaro);
-        padding: 22px;
-    }
+.footer .parrafo{
+    font-size: var(--cuerpoDeTexto);
+    color: var(--grisOscuro);
+    font-weight: normal;
+    text-align: center;
+    line-height: 15px;
+    padding: 0px 24px 0px 24px;
+}
+.footer .p{
+    margin-top: 20px;
+    font-weight: lighter;
+}
 
-    .footer-home section {
-        padding-top: 84px;
-        background-color: var(--fondo);
-    }
-
-    .footer-home section article {
-        text-align: center;
-
-        margin-bottom: 120px;
-
-    }
-
-    .footer-home section h4 {
-
-        font-size: var(--descripciones);
-        color: var(--Grisoscuro);
-    }
-
-    .footer-home section article h5 {
-        font-size: var(--cuerpo-de-t);
-        font-weight: normal;
-        color: var(--Grisoscuro);
-        padding: 0px 74px;
-    }
-
-    .footer-home section i {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 2em;
-        color: var(--celeste);
-    }
-
-    .footer-home section p {
-        margin-top: 20px;
-        font-size: var(--cuerpo-de-t);
-        color: var(--Grisoscuro);
-        font-weight: lighter;
-    }
-
-
-/*Tablet*/
-
-@media (min-width: 360px) and (max-width:768px) {
-
-
-    .footer-home {
-        margin-top: 6px;
-        background-color: var(--Grisclaro);
-        padding: 22px;
-    }
-
-    .footer-home section {
-        padding-top: 84px;
-        display: inline-flex;
-        /* display: flex; */
-        flex-direction: row;
-        background-color: var(--fondo);
-    }
-
-    .footer-home section article {
-        text-align: center;
-        margin-bottom: 120px;
-    }
-
-    .footer-home section h4 {
-
-        font-size: var(--descripciones);
-        color: var(--Grisoscuro);
-    }
-
-    .footer-home section article h5 {
-        font-size: var(--cuerpo-de-t);
-        font-weight: normal;
-        color: var(--Grisoscuro);
-        padding: 0px 74px;
-    }
-
-    .footer-home section i {
-        margin-top: 10px;
-        /* height: 0px; */
-        margin-bottom: 10px;
-        font-size: 2em;
-        color: var(--celeste);
-    }
-
-    .footer-home section p {
-        margin-top: 20px;
-        font-size: var(--cuerpo-de-t);
-        color: var(--Grisoscuro);
-        font-weight: lighter;
-    }
-
+.footer .copy{
+    font-size: var(--cuerpoDeTexto);
+    color: var(--grisOscuro);
+    font-weight: normal;
+    line-height: 15px;
+    padding: 20px 0px 15px 15px;
 }
 
 
 
-
-
-
-
-/*Deskopt*/
-@media (min-width:770px) {
-    .footer-home {
-        margin-top: 6px;
-        text-align: center;
-        background-color: var(--Grisclaro);
-        padding: 22px;
+@media(min-width:770px) { 
+    .footer .seccion{
+        display: flex;
+        justify-content: space-around;
     }
 
-    .footer-home section {
-        padding-top: 84px;
-        background-color: var(--fondo);
+
+    .footer .copy{
+        text-align: left;
     }
 
-    .footer-home section article {
-        text-align: center;
-
-        margin-bottom: 120px;
-
-    }
-
-    .footer-home section h4 {
-
-        font-size: var(--descripciones);
-        color: var(--Grisoscuro);
-    }
-
-    .footer-home section article h5 {
-        font-size: var(--cuerpo-de-t);
-        font-weight: normal;
-        color: var(--Grisoscuro);
-        padding: 0px 74px;
-    }
-
-    .footer-home section i {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 2em;
+    .footer i{
+        font-size: var(--iconos);
         color: var(--celeste);
+        text-align: center;
+        margin-top: 60px;
     }
 
-    .footer-home section p {
-        margin-top: 20px;
-        font-size: var(--cuerpo-de-t);
-        color: var(--Grisoscuro);
-        font-weight: lighter;
+    .footer i:hover{
+        transition: 0.5s;
+        color: #0022AA;
     }
+
 }
