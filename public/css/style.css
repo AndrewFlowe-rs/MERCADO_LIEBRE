@@ -2,4 +2,6 @@
 @import "./general.css";
 @import "./header.css";
 @import "./home.css";
-@import "./footer.css" 
+@import "./footer.css";
+@import "./editProduct.css";
+@import "./newProduct.css";

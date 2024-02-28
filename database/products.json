@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Cafetera Moulinex",
+      "price": 6.770,
+      "discount": 40,
+      "description": "Cafetera eléctrica de la marca Moulinex con capacidad para 12 tazas. Cuenta con filtro permanente, temporizador y función de apagado automático.",
+      "image":"../public/products",
+      "Category": ""
+    },
+    {
+      "id": 2,
+      "title": "MacBook Pro 2019",
+      "price": 230.000,
+      "discount":20,
+      "description": "Laptop de la marca Apple con pantalla Retina de 13 pulgadas, procesador Intel Core i5, 8GB de RAM y 256GB de almacenamiento SSD.",
+      "image":"../public/products",
+      "Category": "" 
+
+    },
+    {
+      "id": 3,
+      "title": "Samsung Galaxy S10",
+      "discount":10,
+      "price": 70.500,
+      "description": "Smartphone de la marca Samsung con pantalla AMOLED de 6.1 pulgadas, cámara triple de 12MP, procesador Exynos 9820 y 8GB de RAM.",
+      "image":"../public/products",
+      "Category": ""
+    },
+    {
+      "id": 4,
+      "title": "Smart TV 43 pulgadas",
+      "price": 23.200, 
+      "discount":5,
+      "description": "Televisor inteligente de 43 pulgadas con resolución Full HD, tecnología LED y sistema operativo Android TV.",
+      "image": "../public/products"
+    }
+  ]

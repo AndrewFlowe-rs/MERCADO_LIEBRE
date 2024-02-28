@@ -14,6 +14,13 @@ app.get('/registro', (req, res) =>{
 })
 app.get('/ingresar', (req, res) =>{
     res.sendFile(path.join(__dirname,'./views/login.html'))
+    
+})
+app.get("/new" ,(req,res) => {
+    res.sendFile(path.join(__dirname, './views/create.html'))
+})
+app.get("/edit ",(req,res)=>{
+    res.sendFile(path.join(__dirname , "/views/edit.html"))
 })
 
 app.listen(port,() =>console.log('http://localhost:3030' )) 
